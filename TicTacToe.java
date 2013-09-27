@@ -104,7 +104,7 @@ public class TicTacToe {
 			while(code!=2386) {
 				code=System.in.read();
 				char symbol = (char) code;
-				switch (symbol) {
+				switch (symbol) {  
 					case 'w': 
 						if(xPosition != 0) {
 							actionBoard[xPosition][yPosition] = this.gameBoard[xPosition][yPosition];
